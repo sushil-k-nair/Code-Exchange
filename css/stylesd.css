@@ -1,0 +1,424 @@
+html{
+    scroll-behavior: smooth;
+}
+/***********profile page**************/
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profilebody{
+    width: 100%;
+}
+.post_sp{
+    margin-top: 10px;
+}
+.post_body{
+    width: 700px;
+    min-height: 100px;
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.post_content{
+    width: 90%;
+}
+.post_body text{
+    width: 850em;
+    font-size: 1em;   
+}
+.post_body text a{
+    text-decoration: none;
+}
+.post_body p{
+    font-size: 0.5em;
+}
+.lit_nav{
+    display: flex;
+    justify-content: space-evenly
+}
+.lit_nav .like, .Comment, .Delete{
+    font-size: 0.5em;
+}
+.lit_nav .like a{
+    text-decoration: none;
+    color: black;
+
+}
+.lit_nav .like a:hover{
+    color: rgb(20, 61, 197);
+}
+.post_sp .comment_sec{
+    width: 700px;
+    height: 80px;
+    background-color: rgb(224, 224, 224);
+    margin: auto;
+}
+.post_sp .comment_sec textarea{
+    width: 80%;
+    height: 8vh;
+    resize: none;
+    margin-left: 2%;
+}
+.post_sp button{
+    width: 6.5%;
+    height: 8vh;
+    position: absolute;
+    bottom: 70px;
+    right: 450px;
+    border: none;
+}
+
+.post_sp .comment_post{
+    width: 700px;
+    background-color: rgb(224, 224, 224);
+    margin: auto;
+}
+.comment_post .post_profile, .post_content{
+    margin-left: 5%;
+}
+.lit_nav .Comment a{
+    text-decoration: none;
+    color: black;
+}
+.lit_nav .Comment a:hover{
+    color: rgb(26, 119, 23);
+}
+    
+.lit_nav .Delete a{
+    text-decoration: none;
+    color: black;
+}
+.lit_nav .Delete a:hover{
+    color: red;
+}
+.post_content .user_likes{
+    color: rgb(109, 109, 109);
+    margin:auto;
+}
+
+/***** Delete Section *****/
+
+.post_body .delete_username a{
+    text-decoration: none;
+}
+.deletearea_btn{
+    width: 700px;
+    min-height: 50px;
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.deletearea_btn .delete_btn{
+    background-image: linear-gradient(45deg, red, rgb(221, 6, 88));
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+.deletearea_btn .delete_btn:hover{
+    background-image: linear-gradient(45deg, rgb(221, 6, 88), red);
+}
+.deletearea_btn button{
+    background-image: linear-gradient(45deg, green, rgb(0, 255, 106));
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+.deletearea_btn button:hover{
+    background-image: linear-gradient(45deg, rgb(0, 255, 106), green);
+
+}
+
+/***** Search Result *****/
+.search_result{
+    width: 90%;
+    margin: auto;
+}
+
+.search_result .search_res_space{
+    width: 95%;
+    height: 80px;
+    margin-top: 10px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    background-color: rgb(224, 224, 224);
+}
+.search_result .search_res_space:hover{
+    background-color: rgb(182, 182, 182);
+}
+
+/***** coading section *****/
+
+.code_nav{
+    width: 150px;
+    height: 50.5px;
+    background-color: transparent;
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    bottom: 10px;
+    right: 10px;
+}
+.code_nav .code{
+    width: 48%;
+    height: 50px;
+    font-size: 1.3em;
+    border-radius: 50px 0px 0px 50px;
+    background-color: rgb(26, 185, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.code_nav .code:hover{
+    background-color: rgb(20, 148, 69);
+}
+.code_nav .run{
+    width: 48%;
+    height: 50px;
+    border-radius: 0px 50px 50px 0px;
+    background-color: rgb(26, 185, 119);
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.code_nav .run:hover{
+    background-color: rgb(20, 148, 69);
+}
+.code_nav a{
+    text-decoration: none;
+    color: rgb(26, 117, 53);
+    font-weight: bold;
+}
+.all_pt{
+    display: flex;
+}
+.top_div{
+    width: 65%;
+    min-height: 91.9vh;
+}
+.bottom_div{
+    width: 35%;
+    min-height: 91.9vh;
+}
+
+/**** top HTML & JAVA SCRIPT ****/
+.top_div .html_pt, .js_pt{
+    width: 99.5%;
+    height: 45vh;
+    margin-top: 5px;
+    margin-left: 0.5%;
+    display: flex;
+}
+.html_pt .html_lg, .js_lg{
+    width: 2%;
+    height: 45vh;
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.html_lg h5, .js_lg h5{
+    color: rgb(212, 190, 88);
+    transform: rotate(270deg);
+}
+.html_pt .html_workspace, .js_workspace{
+    width: 98%;
+    height: 45vh;
+    background-color: rgb(64, 64, 64);
+}
+.html_workspace textarea, .js_workspace textarea{
+    width: 100%;
+    height: 45vh;
+    resize: none;
+    border: none;
+    background-color: transparent;
+    color: rgb(255, 196, 0);
+    font-weight: bold;
+}
+/**** bottom CSS ****/
+.bottom_div .css_pt{
+    width: 98%;
+    height: 90.55vh;
+    margin-top: 5px;
+    margin-left: 1%;
+    display: flex;
+}
+.css_pt .css_lg{
+    width: 3.5%;
+    height: 90.55vh;
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.css_lg h5{
+    color: rgb(212, 190, 88);
+    transform: rotate(270deg);
+}
+.css_pt .css_workspace{
+    width: 98%;
+    height: 90.55vh;
+    background-color: rgb(64, 64, 64);
+}
+.css_workspace textarea{
+    width: 100%;
+    height: 90.55vh;
+    resize: none;
+    border: none;
+    background-color: transparent;
+    color: rgb(255, 196, 0);
+    font-weight: bold;
+}
+/***** OUTPUT PART *****/
+.output_pt{
+    width: 99.3%;
+    height: 100vh;
+    background-color: rgb(240, 240, 240);
+    margin: auto;
+}
+.output_pt iframe{
+    width: 100%;
+    height: 100vh;
+}
+
+@media only screen and (max-width:700px){
+
+    
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 10px;
+    }
+    .post_body, .deletearea_btn{
+        width: 100%;
+    }
+    .post_body text{
+        font-size: 1em;
+    }
+    .post_body p{
+        font-size: 0.5em;
+    }
+    .post_sp .comment_sec{
+        width: 100%;
+    }
+
+    .post_sp .comment_sec textarea{
+        width: 60%;
+        height: 4vh;
+        margin-left: 1%;
+    }
+    .post_sp button{
+        width: 15%;
+        height: 4vh;
+        margin-right: 1%;
+        font-size: 5px;
+    }
+    .post_sp .comment_post{
+        width: 100%;
+    }
+
+
+    .all_pt{
+        display: flex;
+        flex-direction: column;
+    }
+    .top_div{
+        width: 99%;
+        min-height: 91vh;
+    }
+    .bottom_div{
+        width: 99%;
+        min-height: 45vh;
+    }
+    
+    /**** top HTML & JAVA SCRIPT ****/
+    .top_div .html_pt, .js_pt{
+        width: 100%;
+        height: 45vh;
+        margin-top: 5px;
+        display: flex;
+    }
+    .html_pt .html_lg, .js_lg{
+        width: 3.5%;
+        height: 45vh;
+        background-color: rgb(39, 39, 39);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .html_lg h5, .js_lg h5{
+        font-size: 0.5em;
+        color: rgb(212, 190, 88);
+        transform: rotate(270deg);
+    }
+    .html_pt .html_workspace, .js_workspace{
+        width: 96.5%;
+        height: 45vh;
+        background-color: rgb(64, 64, 64);
+    }
+    .html_workspace textarea, .js_workspace textarea{
+        width: 100%;
+        height: 45vh;
+        resize: none;
+        border: none;
+        padding-left: 5px;
+        background-color: transparent;
+        color: rgb(255, 196, 0);
+        font-weight: bold;
+    }
+    /**** bottom CSS ****/
+    .bottom_div .css_pt{
+        width: 100%;
+        height: 45vh;
+        margin-top: 5px;
+        display: flex;
+    }
+    .css_pt .css_lg{
+        width: 3.5%;
+        height: 45vh;
+        background-color: rgb(39, 39, 39);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .css_lg h5{
+        font-size: 0.5em;
+        color: rgb(212, 190, 88);
+        transform: rotate(270deg);
+    }
+    .css_pt .css_workspace{
+        width: 96.5%;
+        height: 45vh;
+        background-color: rgb(64, 64, 64);
+    }
+    .css_workspace textarea{
+        width: 100%;
+        height: 45vh;
+        resize: none;
+        border: none;
+        padding-left: 5px;
+        background-color: transparent;
+        color: rgb(255, 196, 0);
+        font-weight: bold;
+    }
+    /***** OUTPUT PART *****/
+    .output_pt{
+        width: 100%;
+        height: 50vh;
+        margin-top: 5px;
+        background-color: rgb(224, 224, 224);
+    }
+    .output_pt iframe{
+        width: 100%;
+        height: 50vh;
+    }
+
+}
